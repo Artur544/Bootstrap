@@ -1,0 +1,18 @@
+section
+{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.card:active
+{
+    
+}
+
+.loja
+{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
