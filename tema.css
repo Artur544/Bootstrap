@@ -4,15 +4,15 @@ section
     text-align: center;
 }
 
-.card:active
-{
-    
-}
-
 .loja
 {
     padding-top: 3%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.cor
+{
+    background-color: #361a5b;
 }
