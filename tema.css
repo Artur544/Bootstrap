@@ -1,18 +1,50 @@
-section
+.tudo
+{
+
+}
+
+#logo
+{
+    
+}
+
+#loja
 {
     padding: 5% 10%;
     text-align: center;
 }
 
-.loja
+.class-loja
 {
-    padding-top: 3%;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.cor
+.card-body > p > span
 {
-    background-color: #361a5b;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#formulario
+{
+    padding: 5% 10%;
+}
+
+#formulario > h2
+{
+    text-align: center;
+}
+
+.row > div
+{
+    padding: 3%;
+    margin: 3%;
+    box-shadow: 0px 0px 7px rgb(182, 182, 182);
+}
+
+.aaa
+{
+    width: max-content;
 }

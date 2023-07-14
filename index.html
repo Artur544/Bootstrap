@@ -10,11 +10,11 @@
     </head>
     <body>
         <div class="tudo">
-            <header style="background-color: #361a5b;">
-              <nav class="navbar navbar-expand-lg">
+            <header class="sticky-top" style="background-color: #361a5b;">
+              <nav data-bs-theme="dark" class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                  <a style="color: white;" class="navbar-brand" href="#"><img src="img/logo.png" alt=""> Cube Station</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <a style="color: white;" class="navbar-brand" href="#"><img id="logo" src="img/logo.png" alt=""> Cube Station</a>
+                  <button style="color: white" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -74,37 +74,181 @@
 
               <!-- Loja -->
 
-              <section>
+              <section id="loja">
                 <h2>Loja</h2>
-                <div class="loja">
-                  <div class="card" style="width: 18rem;">
+
+                <div class="class-loja">
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
                     <img src="img/cubo3.webp" onmouseover="this.src='img/cube3.webp'" onmouseout="this.src='img/cubo3.webp'" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Cubo Mágico 4x4x4 Qiyi QiYuan S Stickerless</h5>
-                      <p class="card-text">R$ 49,90 até 3x de R$ 16,63 s/juros </p>
-                      <a href="#" class="btn btn-primary cor">R$ 47,40</a>
+                      <p class="card-text"><span>R$ 47,40</span> no pix<br>ou R$ 49,90 até 3x s/juros </p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem;">
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
                     <img src="img/cubo1.webp" onmouseover="this.src='img/cube1.webp'" onmouseout="this.src='img/cubo1.webp'" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Cubo Mágico 3x3x3 Moyu Meilong Stickerless</h5>
-                      <p class="card-text">R$ 29,90 até 3x de R$ 9,96 s/juros</p>
-                      <a href="#" class="btn btn-primary">R$ 28,40</a>
+                      <p class="card-text"><span>R$ 28,40</span> no pix <br>R$ 29,90 até 3x s/juros</p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem;">
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
                     <img src="img/cubo2.webp" onmouseover="this.src='img/cube2.webp'" onmouseout="this.src='img/cubo2.webp'" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Cubo Mágico 2x2x2 Qiyi QiDi S</h5>
-                      <p class="card-text">R$ 34,90 até 3x de R$ 11,63 s/juros</p>
-                      <a href="#" class="btn btn-primary">R$ 33,16</a>
+                      <p class="card-text"><span>R$ 33,16</span> no pix<br>ou R$ 34,90 até 3x s/juros</p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
+                    <img src="img/cubo4.webp" onmouseover="this.src='img/cube4.webp'" onmouseout="this.src='img/cubo4.webp'" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cubo Mágico Megaminx Moyu Meilong Stickerless</h5>
+                      <p class="card-text"><span>R$ 61,66</span> no pix<br>ou R$ 64,90 até 3x s/juros</p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
+                    <img src="img/cubo5.webp" onmouseover="this.src='img/cube5.webp'" onmouseout="this.src='img/cubo5.webp'" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cubo Mágico 5x5x5 Qiyi QiZheng S Stickerless</h5>
+                      <p class="card-text"><span>R$ 61,66</span> no pix<br>ou R$ 64,90 até 3x s/juros</p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
+                    <img src="img/cubo6.webp" onmouseover="this.src='img/cube6.webp'" onmouseout="this.src='img/cubo6.webp'" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cubo Mágico Megaminx Moyu Meilong Stickerless</h5>
+                      <p class="card-text"><span>R$ 42,66</span> no pix<br>ou R$ 44,90 até 3x s/juros</p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
+                    <img src="img/cubo7.webp" onmouseover="this.src='img/cube7.webp'" onmouseout="this.src='img/cubo7.webp'" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cubo Mágico 2x2x2 Cyclone Boys Metálico...</h5>
+                      <p class="card-text"><span>R$ 123,40</span> no pix<br>ou R$ 129,90 até 3x s/juros</p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 18rem; margin: 4% 0;">
+                    <img src="img/cubo8.webp" onmouseover="this.src='img/cube8.webp'" onmouseout="this.src='img/cubo8.webp'" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cubo Mágico Megaminx Moyu Meilong Stickerless</h5>
+                      <p class="card-text"><span>R$ 37,90</span> no pix<br>ou R$ 39,90 até 3x s/juros</p>
+                      <a href="#" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Comprar</a>
+                    </div>
+                  </div>
+
+                </div>
+
+              </section>
+
+              <section id="formulario">
+                <h2>Cadastre-se</h2>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <fieldset>
+                        <h4>Já tenho conta!</h4>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">E-mail:</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Aceito os Termos</label>
+                        </div>
+                        <button type="submit" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Entrar</button>
+                      </fieldset>
+                    </div>
+                    <div class="col">
+                      <fieldset>
+                        <h4>Ainda não possuo conta :(</h4>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">E-mail:</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Aceito os Termos</label>
+                        </div>
+                        <button type="submit" style="background-color: #361a5b; border-color: #361a5b;" class="btn btn-dark">Cadastrar</button>
+                      </fieldset>
                     </div>
                   </div>
                 </div>
               </section>
 
-              <section></section>
+              <!-- <section>
+                <div id="carrossel2" class="carousel slide multi-item-carousel" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="col-xs-4">
+                        <div class="card" style="">
+                          <img src="img/cubo3.webp" onmouseover="this.src='img/cube3.webp'" onmouseout="this.src='img/cubo3.webp'" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Cubo Mágico 4x4x4 Qiyi QiYuan S Stickerless</h5>
+                            <p class="card-text">R$ 49,90 até 3x de R$ 16,63 s/juros </p>
+                            <a href="#" class="btn btn-primary cor">R$ 47,40</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-xs-4">
+                        <div class="card" style="">
+                          <img src="img/cubo3.webp" onmouseover="this.src='img/cube3.webp'" onmouseout="this.src='img/cubo3.webp'" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Cubo Mágico 4x4x4 Qiyi QiYuan S Stickerless</h5>
+                            <p class="card-text">R$ 49,90 até 3x de R$ 16,63 s/juros </p>
+                            <a href="#" class="btn btn-primary cor">R$ 47,40</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-xs-4">
+                        <div class="card" style="">
+                          <img src="img/cubo3.webp" onmouseover="this.src='img/cube3.webp'" onmouseout="this.src='img/cubo3.webp'" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Cubo Mágico 4x4x4 Qiyi QiYuan S Stickerless</h5>
+                            <p class="card-text">R$ 49,90 até 3x de R$ 16,63 s/juros </p>
+                            <a href="#" class="btn btn-primary cor">R$ 47,40</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carrossel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carrossel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </section> -->
 
             </main>
             <footer></footer>
