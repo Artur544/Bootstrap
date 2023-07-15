@@ -1,6 +1,7 @@
-.tudo
+main
 {
-
+    background-image: url(img/fundo.png);
+    background-size: contain;
 }
 
 #logo
@@ -8,10 +9,15 @@
     
 }
 
-#loja
+#cubos, #acessorios, #sobre-nos
 {
     padding: 5% 10%;
     text-align: center;
+}
+
+section > h2
+{
+    margin-bottom: 5%;
 }
 
 .class-loja
@@ -27,6 +33,75 @@
     font-size: 20px;
 }
 
+.div-ani
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.cubo-ani
+{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-image: url(img/cubo-sobre-nos.png);
+    animation: go-back 4s infinite alternate-reverse;
+}
+
+.cubo-ani-reverse
+{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-image: url(img/cubo-sobre-nos.png);
+    animation: go-back2 4s infinite alternate-reverse;
+}
+
+@keyframes go-back {
+    from 
+    {
+        transform: translateX(150px);
+    }
+    to 
+    {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes go-back2 {
+    from 
+    {
+        transform: translateX(-150px);
+    }
+    to 
+    {
+        transform: translateX(0px);
+    }
+}
+
+#sobre-nos > div
+{
+    box-shadow: 0px 0px 7px rgb(182, 182, 182);
+    margin: 0 13%;
+    padding: 2%;
+}
+
+#sobre-nos > div > h3
+{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+#sobre-nos > div > p
+{
+    text-align: left;
+    font-size: large;
+    font-weight: 300;
+}
+
 #formulario
 {
     padding: 5% 10%;
@@ -37,14 +112,28 @@
     text-align: center;
 }
 
-.row > div
+#formulario > div
 {
-    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forms
+{
+    width: clamp(20rem, 40%, 50rem);
+    background-color: white;
+    padding: clamp(15px, 3%, 30px);
     margin: 3%;
     box-shadow: 0px 0px 7px rgb(182, 182, 182);
 }
 
-.aaa
-{
-    width: max-content;
+footer {
+    padding: 3%;
+    background: #361a5b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
