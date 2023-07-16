@@ -77,7 +77,7 @@ section > h2
 }
 
 @keyframes go-back {
-    from 
+    from
     {
         transform: translateX(150px);
     }
@@ -88,7 +88,7 @@ section > h2
 }
 
 @keyframes go-back2 {
-    from 
+    from
     {
         transform: translateX(-150px);
     }
@@ -155,7 +155,8 @@ section > h2
 
 #termos
 {
-    text-decoration: underline;
+    font-style: italic;
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -196,7 +197,7 @@ footer {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #170c27;
     display: inline-flex;
     align-items: center;
     justify-content: center;
