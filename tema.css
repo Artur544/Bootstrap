@@ -4,12 +4,29 @@ main
     background-size: contain;
 }
 
-#logo
+nav
 {
-    
+    font-weight: 600;
 }
 
-#cubos, #acessorios, #sobre-nos
+#logo:hover
+{
+    animation: giro 1s;
+}
+
+@keyframes giro
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(-180deg);
+    }
+}
+
+#cubos, #acessorios 
 {
     padding: 5% 10%;
     text-align: center;
@@ -81,10 +98,18 @@ section > h2
     }
 }
 
+#sobre-nos
+{
+    margin: 5% 3%;
+    text-align: center;
+}
+
 #sobre-nos > div
 {
     box-shadow: 0px 0px 7px rgb(182, 182, 182);
-    margin: 0 13%;
+    margin-left: clamp(1rem, 13%, 200px);
+    margin-right: clamp(1rem, 13%, 200px);
+    background-color: white;
     padding: 2%;
 }
 
@@ -92,14 +117,13 @@ section > h2
 {
     text-align: center;
     font-weight: bolder;
-    margin-bottom: 5%;
 }
 
 #sobre-nos > div > p
 {
     text-align: left;
     font-size: large;
-    font-weight: 300;
+    font-weight: light;
 }
 
 #formulario
@@ -129,11 +153,52 @@ section > h2
     box-shadow: 0px 0px 7px rgb(182, 182, 182);
 }
 
+#termos
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 footer {
     padding: 3%;
     background: #361a5b;
+}
+
+#foot
+{    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    color: white;
+}
+
+#foot > div
+{
+    flex: 1;
+}
+
+#foot > div > h4, h3
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.contato
+{
+    font-weight: bold;
+}
+
+.bola
+{
+    margin: 0 2%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
