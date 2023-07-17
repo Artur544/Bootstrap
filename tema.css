@@ -161,7 +161,7 @@ section > h2
 }
 
 footer {
-    padding: 3%;
+    padding: 5% 3%;
     background: #361a5b;
 }
 
@@ -189,6 +189,7 @@ footer {
 .contato
 {
     font-weight: bold;
+    text-align: left;
 }
 
 .bola
